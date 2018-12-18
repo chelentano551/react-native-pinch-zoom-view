@@ -4,11 +4,11 @@ A pinch-to-zoom view for React Native. All the components wrapped in the view is
 
 ## Install
 
-`npm install react-native-pinch-zoom-view --save`
+`npm install react-native-pinch-zoom-view-movable --save`
 
 ## Usage
 
-`require` the `react-native-pinch-zoom-view` module and then use the `<PinchZoomView>` tag to wrap your content instead of `<View>`.
+`require` the `react-native-pinch-zoom-view-movable` module and then use the `<PinchZoomView>` tag to wrap your content instead of `<View>`.
 
 ```javascript
 'use strict';
@@ -33,6 +33,12 @@ AppRegistry.registerComponent('APP', () => APP);
 ```
 
 ## Properties
+
+### `movable`
+Values: `true` or `false`
+Default: `true`
+
+In some cases, you may want to disable the movable behaviour, just set `movable={false}` on the component.
 
 #### `scalable`
 
